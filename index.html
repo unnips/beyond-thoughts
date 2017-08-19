@@ -1,17 +1,78 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <link href="/ui/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
+  <head>
+   <link rel="stylesheet" type="text/css" href="ui/style.css?version="+ DateTime.Now.ToString("yyyyMMddhhmmss") +"'">
+   <title>Beyond Thoughts Learning</title>
+   <link rel="shortcut icon" href="ui/favicon.ico" type="image/ico"/>
+  </head>
+  <body>
+    <div class='main'> 
+    <div class="header">
+      <div class="container">  
+        <div class="navbar">
+          <ul id='left'>
+            <li id='home_btn'>Home</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+          </ul>
+          <ul id='right'>
+            <li>
+             <div class="dropdown">
+              <span> Programs </span>
+              <div class="dropdown-content">
+              <ul>
+                  <li> <a href="#"> Maths Academy </a> </li>
+                  <li> <a href="#"> Seminars </a> </li>
+                  <li> <a href="#"> Link 3 </a> </li>
+                <ul>
+              </div>
+              </div>
+            </li>
+          </ul>
         </div>
-        <br>
-        <div class="center text-big bold">
-            Hi! I am a beginner.
-        </div>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
-    </body>
+      </div>  
+    </div>  
+    <h1> Imagination Frames Reality </h1>
+    <div class='hdng_box'> 
+        <h2>What is an imagination today, is a reality tomorrow</h2>
+      <div id=learn_more>
+          <button id="Learn_more_button"> Learn More </button>
+      </div>
+    </div>
+   </div>
+    <div class="supporting">
+			<div class="container">
+
+				<div class="col">
+					<img src="https://s3.amazonaws.com/codecademy-content/projects/broadway/design.svg">
+					<h2>Design</h2>
+					<p>Make your projects look great and interact beautifully.</p>
+					<a class="btn-default" href="#">Learn more</a>
+				</div>
+
+				<div class="col">
+					<img src="https://s3.amazonaws.com/codecademy-content/projects/broadway/develop.svg">
+					<h2>Develop</h2>
+					<p>Use modern tools to turn your design into a web site</p>
+					<a class="btn-default" href="#">Learn more</a>
+				</div>
+
+				<div class="col">
+					<img src="https://s3.amazonaws.com/codecademy-content/projects/broadway/deploy.svg">
+					<h2>Deploy</h2>
+					<p>Use modern tools to turn your design into a web site</p>
+					<a class="btn-default" href="#">Learn more</a>
+				</div>
+
+			</div>
+			<div class="clearfix"></div>
+		</div>
+
+		<div class="footer">
+			<div class="container">
+				<p>&copy; Broadway 2014</p>
+			</div>
+		</div>
+  </body>
+   <script src="ui/main.js"> </script>
 </html>
