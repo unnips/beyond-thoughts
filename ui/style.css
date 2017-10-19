@@ -1,12 +1,12 @@
 * {
-  margin-right:10px;
+  /*margin-right:10px;*/
 }
 
 .main {
   /*border: 10px solid #5b0aea;*/
   height: 900px;
-  width: 101%;
-  background-image: url("pexel-success.jpg");
+  width: 100%;
+  background-image: url("images/sea.jpg");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -15,14 +15,13 @@
 /* background-image: -webkit-linear-gradient(#FFD194, #BC1324); */
 
 .header {
-  /*border: 10px solid #FFEB3B;*/
+  /*border: 1px solid #FFEB3B;*/
   z-index: 999;
   margin-right:10px;
-  position: absolute;
-  top: 30px;
+  position: relative;
+  /*top: 30px;*/
   background-color: #333;
-  position: fixed;
-  width: 99%;
+  width: 100%;
 }
 
 .container {
@@ -30,7 +29,7 @@
 }
 
 .navbar {
-  border: 10px solid rgb(182, 10, 212);
+  /*border: 10px solid rgb(182, 10, 212);*/
   margin: 0;
   padding: 0px 0 50px 0;
 }
@@ -94,7 +93,7 @@ h1 {
   /*border: 10px solid rgb(9, 200, 230);*/
   position: relative;
   top: 70px;
-  color: #3f51b5;
+  color: #270703;
   font-family: 'Amatic SC', cursive;
   font-size: 90px;
   text-align: center;
@@ -102,10 +101,11 @@ h1 {
 }
 
 .hdng_box {
-  border: 5px solid #5b0aea;
+  /*border: 5px solid #5b0aea;*/
   padding-top: 20px;
-  opacity: 0.6;
-  background-color: #efe7e7;
+  opacity: 0.4;
+  /*background-color: #efe7e7;*/
+  color: #3f51b5;
   position: relative;
   text-transform: uppercase;
   top: 70px;
@@ -141,7 +141,7 @@ h2 {
 }
 
 #progspan {
-  border: 1px solid #ce1515;
+  /*border: 1px solid #ce1515; */
 }
 
 .supporting {
@@ -195,11 +195,11 @@ h2 {
 
 .footer {
   position: relative;
-  top: 300px;
+  /*top: 300px;*/
   padding:10px 0px;
   background-color: #333;
   color: #fff;
-
+  width: 100%;
 }
 
 .footer p {
